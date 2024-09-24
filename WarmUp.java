@@ -1,11 +1,18 @@
 public class WarmUp
 {
-  public static void main(String[] args)
+  public static boolean isEven(int n)
   {
-    // test your methods here
+    return (n % 2 == 0);
   }
 
-  // write your methods below
+
+  
+  public static boolean isDivisible(int a, int b)
+  {
+    return (a % b == 0);
+  }
+
+ 
 
   
 }
